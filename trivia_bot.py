@@ -19,7 +19,7 @@ import random
 class YoutubeTriviaCrack:
     
     def __init__(self):
-        self.PROFILE_PATH = './kfqmitqs.automation_experiments'
+        self.PROFILE_PATH = './home/.mozilla/firefox/ur_profile'
         self.QUESTION = None
         self.ANSWER = None
         self.REWARD = None

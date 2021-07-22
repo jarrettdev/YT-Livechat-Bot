@@ -34,7 +34,6 @@ driver.get("https://www.youtube.com/watch?v=DWcJFNfaw9c")
 sleep(60)  # wait for the requests to take place
 
 while True:
-
     # extract requests from logs
     logs_raw = driver.get_log("performance")
     logs = [json.loads(lr["message"])["message"] for lr in logs_raw]
